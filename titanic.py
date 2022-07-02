@@ -111,3 +111,20 @@ bn=BernoulliNB()
 bn.fit(x_train,y_train)
 pred=bn.predict(x_test)
 print("BernoulliNB" ,accuracy_score(y_test,pred))
+
+'''
+Features        Score
+0      Sex   152.000000
+1    SibSp     7.487395
+2    Parch    25.920078
+3     Fare  1336.772366
+
+DecisionTreeClassifier 1.0
+RandomForest 1.0
+GradientBoostingClassifier 1.0
+LogisticRegression 1.0
+SVC 0.6279863481228669
+GaussianNB 1.0
+MultinomialNB 0.825938566552901
+BernoulliNB 1.0
+'''
